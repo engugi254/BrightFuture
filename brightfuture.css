@@ -43,7 +43,7 @@ li a{
     height:300px;
 }
 #body{
-    margin-bottom:25px;
+    margin-bottom:45px;
     display: flex;
     justify-content: center;
 }
@@ -65,9 +65,9 @@ li a{
     justify-content: space-between;
 
 }
-#brighthead{
+#brighthead h1{
     font-weight: 900;
-    font-size: 20px;
+    font-size: 48px;
     margin:0px;
     padding:0px;
 }
@@ -83,6 +83,7 @@ li a{
 #footer{
     display: flex;
     justify-content:space-between;
+    margin-top: 20px;
 }
 .footer_photos{
     float:left;
