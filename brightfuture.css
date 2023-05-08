@@ -1,0 +1,73 @@
+#container{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width:1200px;
+}
+#logo{
+    width:600px;
+    height:100px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+#nav{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+li{
+    margin-right:20px;
+}
+#img_desktop{
+    width:800px;
+    height:300px;
+}
+#body{
+    margin-bottom:25px;
+    display: flex;
+    justify-content: center;
+}
+#right_body{
+    background-color: black;
+    color:white;
+    margin-left: 20px;
+    padding: 10px 10px;
+}
+#center_body{
+    display: flex;
+    justify-content: space-between;
+
+}
+#brighthead,#statement{
+   width:400px;
+}
+#footer{
+    display: flex;
+    justify-content:space-between;
+}
+.footer_photos{
+    float:left;
+    width:120px;
+    height:160px;
+    margin-right:20px;
+}
+#rev_retro,#laptops,#gaming{
+    width:380px;
+    height:200px;
+    
+}
+button{
+    padding:4px 10px;
+    border:none;
+    background-color:rgb(231, 78, 78);
+    color: white;
+}
