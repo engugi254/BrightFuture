@@ -7,11 +7,18 @@
 }
 #logo{
     width:600px;
+    font-weight: 900;
     height:100px;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 #header{
     display: flex;
     justify-content: space-between;
+  
 }
 #nav{
 
@@ -26,6 +33,10 @@ ul{
 }
 li{
     margin-right:20px;
+}
+li a{
+    text-decoration: none;
+    color: grey;
 }
 #img_desktop{
     width:800px;
@@ -42,13 +53,32 @@ li{
     margin-left: 20px;
     padding: 10px 10px;
 }
+#right_body h2{
+    color: rgba(255, 170, 0, 0.914);
+    font-weight: 700;
+}
+#right_body p{
+    color: rgb(225, 250, 250);
+}
 #center_body{
     display: flex;
     justify-content: space-between;
 
 }
+#brighthead{
+    font-weight: 900;
+    font-size: 20px;
+    margin:0px;
+    padding:0px;
+}
+#statement{
+    padding-top:20px;
+}
+#statement{
+    color:rgb(104, 103, 103);
+}
 #brighthead,#statement{
-   width:400px;
+   width:400px; 
 }
 #footer{
     display: flex;
@@ -60,14 +90,25 @@ li{
     height:160px;
     margin-right:20px;
 }
+#footer h2{
+        color:lightgray;
+ }
+ #footer h4{
+color:rgb(1, 1, 37)
+ }
+ #footer p{
+    color:rgb(104, 103, 103);
+ }
+
 #rev_retro,#laptops,#gaming{
     width:380px;
     height:200px;
     
 }
 button{
-    padding:4px 10px;
+    padding:1.2em 1.5em;
     border:none;
     background-color:rgb(231, 78, 78);
     color: white;
+    font-size: 12px;
 }
